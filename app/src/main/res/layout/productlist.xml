@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="112dp"
+        android:background="#2C4FB6"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="26dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_arrow_left" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:text="Fresh Fish"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="30dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_search" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="30dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_favourite" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="30dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_cart" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="118dp" >
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:text="SEA FISH" />
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:text="BACK WATER FISH" />
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="25dp"
+            android:text="FRESH FISH" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="212dp">
+        <ImageView
+            android:id="@+id/catla"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            app:srcCompat="@drawable/img_3" />
+        <TextView
+            android:id="@+id/catlaa1"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:text="Catla( 1 kg to 1.9 kg)"
+            android:textSize="11dp"
+          android:layout_marginTop="105dp" />
+        <TextView
+            android:id="@+id/catlaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="134dp"
+            app:srcCompat="@drawable/ic_rupee" />
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="134dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+        <TextView
+            android:id="@+id/catla1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="135dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="168dp"
+        android:layout_height="181dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="212dp">
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="131dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/img_1" />
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="Indian Mackerel / Ayala /Bangda /Ayila(large) 6+count/kg)"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/ayala1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="155dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+        <ImageView
+            android:id="@+id/ayalaa"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/ic_rupee" />
+        <ImageView
+            android:id="@+id/mackerel"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+        <TextView
+            android:id="@+id/ayala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="155dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="408dp">
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            app:srcCompat="@drawable/img_2" />
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:text="Pink  perch/Kilimeen /Sankara meen /Thread Finned Bream(Large)(180g to 310g)"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/kilimeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="155dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+        <ImageView
+            android:id="@+id/kilimeen1"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="159dp"
+            app:srcCompat="@drawable/ic_rupee" />
+        <ImageView
+            android:id="@+id/kili"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/kili1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="155dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="408dp" >
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:textSize="11dp"
+            android:text="Tilapia/ Jilebi Fish(100g to 240g)" />
+        <TextView
+            android:id="@+id/jilebi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="125dp"
+            android:text="179.00/ 500g"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/jilebi1"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="129dp"
+            app:srcCompat="@drawable/ic_rupee" />
+        <ImageView
+            android:id="@+id/thilapia"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="125dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/tilapia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="125dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/catla1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="125dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="599dp" >
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="109dp"
+            android:layout_height="99dp"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:textSize="11dp"
+            android:text="Catla (1kg to 1.9 kg)" />
+
+
+        <ImageView
+            android:id="@+id/cat1"
+            android:layout_width="22dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="159dp"
+            app:srcCompat="@drawable/ic_rupee" />
+
+        <TextView
+            android:id="@+id/catla11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="12dp"
+            android:text="199.00/500g"
+            android:textSize="10dp" />
+        <ImageView
+            android:id="@+id/catl1"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="125dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="599dp" >
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="124dp"
+            android:layout_height="104dp"
+            app:srcCompat="@drawable/img_1" />
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="Indian Mackerel / Ayala /Bangda /Ayila(large) 6+count/kg)"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/ayala1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="155dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/ayalaf"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/ic_rupee" />
+
+        <ImageView
+            android:id="@+id/ayala11"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/ayalaa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="155dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_menu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="675dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

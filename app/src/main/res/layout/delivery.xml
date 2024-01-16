@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="#2C4FB6">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_arrow_left"
+            />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Delivery Location"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="367dp"
+        android:layout_height="61dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="145dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/baseline_gps_fixed_24" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Use my current location"
+            android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="358dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="City *"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Locality,area or street *"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="351dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Flat no,Building name *"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="174dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Pincode *"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="172dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="State *"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="351dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Landmark(optional)"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="356dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name *"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <EditText
+        android:id="@+id/editTextText15"
+        android:layout_width="347dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Mobile Number *"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="616dp" />
+    <EditText
+        android:id="@+id/editTextText16"
+        android:layout_width="348dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Alternate Contact Number(optional)"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="664dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
