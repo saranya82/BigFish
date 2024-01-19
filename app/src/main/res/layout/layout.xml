@@ -27,7 +27,7 @@
 </LinearLayout>
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/fname"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -36,7 +36,7 @@
         android:inputType="text"
         android:text="First Name *" />
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/lname"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -45,7 +45,7 @@
         android:inputType="text"
         android:text="Last Name *" />
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/email"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -54,7 +54,7 @@
         android:inputType="text"
         android:text="E-mail *" />
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/mnumber"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -104,20 +104,12 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="10dp"/>
     </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:background="#97320B"
-    android:gravity="center"
-    android:layout_marginTop="213dp">
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
-        android:textColor="@color/white"
-        android:textSize="25dp"/>
-</LinearLayout>
-
-
-
+        android:id="@+id/register"
+        android:backgroundTint="#97320B"
+        android:layout_marginTop="210dp"
+      android:textSize="25dp"/>
 </LinearLayout>
